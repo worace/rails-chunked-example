@@ -34,3 +34,18 @@ Yields:
 curl: (18) transfer closed with outstanding read data remaining
 
 ```
+
+With server logs:
+
+```
+Started GET "/" for 127.0.0.1 at 2019-04-04 13:09:29 -0700
+Processing by ApplicationController#index as */*
+before
+yield row 0
+yield row 1
+yield row 2
+yield row 3
+yield row 4
+after
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+```
