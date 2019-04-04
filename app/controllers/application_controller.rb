@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::Base
-  include ActionController::Live
   def index
     response.set_header("Transfer-Encoding", "chunked")
     response.set_header("X-Accel-Buffering", "no")
