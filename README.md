@@ -1,5 +1,7 @@
 # README
 
+Trying to reproduce [this post](https://coderwall.com/p/kad56a/streaming-large-data-responses-with-rails).
+
 ```
 bundle
 rails s
